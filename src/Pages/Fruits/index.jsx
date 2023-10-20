@@ -21,7 +21,7 @@ console.log(fruits);
     <div>Show all fruits here:
         <ul>
         {fruits.map((fruit)=>{
-           return <li key={fruit.name}>
+           return <li key={fruit._id}>
                 <p>{fruit.name}</p>
                 <p>{fruit.color}</p>
                 <p>{fruit.readyToEat}</p>
